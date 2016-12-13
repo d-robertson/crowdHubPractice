@@ -1,4 +1,5 @@
 (function(){
+
   angular.module('graphApp')
   .component('display', {
     templateUrl: './components/display/display.html',
@@ -11,4 +12,5 @@
 
     display.name = 'display';
   }
+
 })()
