@@ -8,7 +8,6 @@
 
   function searchCtrl(){
     var search = this;
-
     search.name = 'search!';
   }
 })()

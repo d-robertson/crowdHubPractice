@@ -2,13 +2,13 @@
   angular.module('graphApp')
   .component('description', {
     templateUrl: './components/description/description.html',
-    cotroller: descriptionCtrl,
+    controller: DescriptionCtrl,
     controllerAs: 'description'
   });
 
-  function descriptionCtrl(){
+  function DescriptionCtrl(){
     var description = this;
-
+    console.log('description');
     description.name = "description";
   }
 })()
