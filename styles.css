@@ -1,0 +1,16 @@
+.sidebar {
+  /*border: solid black 1px;*/
+
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.graph {
+  /*border: solid black 1px;*/
+
+  height: 200px;
+
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+}
