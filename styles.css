@@ -1,15 +1,116 @@
+body {
+  /*background-color: #f9f9f9*/
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, lightgrey 1px, transparent 1px), linear-gradient(to bottom, lightgrey 1px, transparent 1px);
+}
+
 .sidebar {
   /*border: solid black 1px;*/
-
-  background-size: 40px 40px;
-  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
 }
 
 .graph {
   /*border: solid black 1px;*/
+}
 
-  height: 200px;
+.searchForm {
+  border: solid #f9f9f9 1px;
+  height: 300px;
+  width: 80%;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 1%;
+  box-shadow: 4px 4px 4px lightgrey;
+}
 
-  background-size: 40px 40px;
-  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+.questionMark {
+  margin-left: 5%;
+  color: grey;
+  position: relative;
+}
+
+
+
+.searchTitle {
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+  margin-top: 5px;
+
+}
+
+.angleUp {
+  color: grey;
+  float: right;
+  margin-right: 5%;
+  font-size: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.searchInput {
+  background-color: transparent;
+  border-radius: 1%;
+  border: solid lightgrey 1px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.infoForm {
+  border: solid #f9f9f9 1px;
+  height: 121px;
+  width: 80%;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 1%;
+  box-shadow: 4px 4px 4px lightgrey;
+}
+
+.descriptionForm {
+  border: solid #f9f9f9 1px;
+  height: 400px;
+  width: 80%;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 1%;
+  box-shadow: 4px 4px 4px lightgrey;
+}
+
+.dropdown-toggle {
+  color: grey;
+  border-radius: 1%;
+  background-color: #ffffff;
+  border: solid lightgrey 1px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 15px;
+  height: 40px;
+  text-align: left;
+}
+
+.caret {
+  float: right;
+}
+
+.topRow {
+  height: 60px;
+  width: 100%;
+  border-bottom: solid lightgrey 1px;
+}
+
+.bottomRow {
+  width: 100%;
+  height: 60px;
+}
+
+.box {
+  border: solid grey 1px;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  text-align: center;
+  margin-left: 12%; 
 }
