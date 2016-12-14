@@ -13,8 +13,9 @@
   }
 
   function generateGraph() {
-    var width = 960,
-      height = 500,
+    var displayElem = document.getElementById("display");
+    var width = 1440,
+      height = 750,
       radius = Math.min(width, height) / 2 - 30;
 
     var r = d3.scale.linear()
@@ -33,7 +34,7 @@
       .attr("width", width)
       .attr("height", height)
       .append("g")
-      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+      .attr("transform", "translate(" + ((display.offsetWidth / 2) - 57) + "," + ((display.offsetHeight / 2) + 50) + ")");
 
       console.log(svg);
 
@@ -49,7 +50,7 @@
     var ga = svg.append("g")
       .attr("class", "a axis")
       .selectAll("g")
-      .data(d3.range(0, 360, 30))
+      .data(d3.range(0, 360, 45))
       .enter().append("g")
       .attr("transform", function(d) {
         return "rotate(" + -d + ")";

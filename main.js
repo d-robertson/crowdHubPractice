@@ -15,8 +15,4 @@
   MainCtrl.$inject = [];
 })()
 
-document.addEventListener("DOMContentLoaded", function() {  
 
-
-  
-});

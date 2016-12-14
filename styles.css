@@ -5,8 +5,7 @@ body {
 }
 
 #display {
-  height: 800px;
-  border: solid black 1px;
+  
 }
 
 .sidebar {
@@ -19,7 +18,7 @@ body {
 
 .logo {
   height: 50px;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .searchForm {
@@ -39,7 +38,7 @@ body {
 }
 
 .column1 {
-  background-image: linear-gradient( to right, #ebebeb, transparent);
+  background: linear-gradient( to right, rgba(235,235,235,1) 70%, rgba(235,235,235,0.3));
 }
 
 .searchTitle {
@@ -200,8 +199,8 @@ body {
   .axis line,
   .axis circle {
     fill: none;
-    stroke: steelblue;
-    stroke-dasharray: 4;
+    stroke: grey;
+    /*stroke-dasharray: 4;*/
   }
   
   .axis:last-of-type circle {
@@ -214,5 +213,13 @@ body {
     stroke: orange;
     stroke-width: 3px;
   }
+
+  svg:not(:root){
+    overflow: visible;
+  }
+
+  /*svg {
+    overflow: visible;
+  }*/
 
   /*--------------------------------------------------------------*/
