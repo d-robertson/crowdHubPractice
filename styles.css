@@ -1,5 +1,5 @@
 body {
-  /*background-color: #f9f9f9*/
+  background-color: #ebebeb;
   background-size: 20px 20px;
   background-image: linear-gradient(to right, lightgrey 1px, transparent 1px), linear-gradient(to bottom, lightgrey 1px, transparent 1px);
 }
@@ -15,6 +15,11 @@ body {
 
 .graph {
   /*border: solid black 1px;*/
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10%;
 }
 
 .searchForm {
@@ -33,7 +38,9 @@ body {
   position: relative;
 }
 
-
+.column1 {
+  background-image: linear-gradient( to right, #ebebeb, transparent);
+}
 
 .searchTitle {
   text-align: center;
@@ -74,6 +81,48 @@ body {
   box-shadow: 4px 4px 4px lightgrey;
 }
 
+#centerImg {
+  background-image: url("center.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#centeringImg {
+  background-image: url("centering.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#arrowImg {
+  background-image: url("arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#downloadImg {
+  background-image: url("download.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#ofTotalImg {
+  background-image: url("ofTotal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#selectedImg {
+  background-image: url("selected.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .descriptionForm {
   border: solid #f9f9f9 1px;
   height: 400px;
@@ -112,7 +161,7 @@ body {
 }
 
 .box {
-  border: solid grey 1px;
+  /*border: solid grey 1px;*/
   height: 50px;
   width: 50px;
   margin-top: 5px;
