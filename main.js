@@ -12,7 +12,7 @@
     main.name = 'derek';
   }
 
-  MainCtrl.$inject = [];
+  MainCtrl.$inject = ["$http"];
 })()
 
 

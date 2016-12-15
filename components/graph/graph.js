@@ -59,7 +59,7 @@
     ga.append("line")
       .attr("x2", radius);
         
-    var color = d3.scale.category20();
+    var color = d3.scale.category10();
 
     var line = d3.svg.line.radial()
       .radius(function(d) {
@@ -95,6 +95,8 @@
       })
       .attr("r", 8)
       .attr("fill",function(d,i){
+        console.log('i : ', i);
+
         return color(i);
       });
   }
