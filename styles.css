@@ -81,42 +81,42 @@ body {
 }
 
 #centerImg {
-  background-image: url("center.png");
+  background-image: url("img/center.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #centeringImg {
-  background-image: url("centering.png");
+  background-image: url("img/centering.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #arrowImg {
-  background-image: url("arrow.png");
+  background-image: url("img/arrow.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #downloadImg {
-  background-image: url("download.png");
+  background-image: url("img/download.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #ofTotalImg {
-  background-image: url("ofTotal.png");
+  background-image: url("img/ofTotal.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #selectedImg {
-  background-image: url("selected.png");
+  background-image: url("img/selected.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -1,6 +1,9 @@
 (function(){
   angular.module('graphApp')
   .component('graph', {
+    bindings: {
+      
+    },
     templateUrl: './components/graph/graph.html',
     controller: GraphCtrl,
     controllerAs: 'graph'
@@ -8,11 +11,13 @@
 
   function GraphCtrl(){
     var graph = this;
+    graph.data = [];
     graph.name = 'Graph';
-    generateGraph();
+    // console.log('search: ', search.data);
+    generateGraph(graph.data);
   }
 
-  function generateGraph() {
+  function generateGraph(data) {
     var displayElem = document.getElementById("display");
     var width = 1440,
       height = 750,
@@ -84,6 +89,15 @@
       [Math.PI / 2, Math.random()]
     ]
 
+    var tip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([0, 0])
+      .html(function(d) {
+        return  "<span style='color:orangered'>hello</span><br><span style='color:orangered'>this is derek</span>";
+      });
+
+    svg.call(tip);
+
     svg.selectAll("point")
       .data(data)
       .enter()
@@ -98,6 +112,10 @@
         console.log('i : ', i);
 
         return color(i);
-      });
+      })
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide);
+
+    
   }
 })()
